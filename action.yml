@@ -1,0 +1,23 @@
+name: 'plist-action'
+description: 'Convert between plist and json'
+author: 'rosingrind'
+branding:
+  icon: 'shuffle'
+  color: red
+inputs:
+  source:
+    required: true
+    description: 'source string'
+  format:
+    required: true
+    description: 'source format (plist/json)'
+  pretty:
+    required: false
+    description: 'print target string pretty'
+    default: 'false'
+outputs:
+  target:
+    description: 'output string'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
