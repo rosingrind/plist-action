@@ -1,0 +1,38 @@
+name: 'Tests'
+
+on:
+  pull_request:
+    paths-ignore:
+      - '**.md'
+      - '.github/**'
+  push:
+    branches: [ main, 'releases/*']
+    paths-ignore:
+      - '**.md'
+      - '.github/**'
+
+jobs:
+  install:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          yarn install
+      - run: |
+          yarn run all
+  test-run:
+    name: Action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./
+        id: test-run
+        with:
+          source: <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><array><string>metadata</string><dict><key>bundle-identifier</key><string>com.company.app</string><key>bundle-version</key><string>0.1.1</string><key>kind</key><string>software</string><key>title</key><string>AppName</string></dict></array></plist>
+          format: plist
+          pretty: true
+      - name: Output plist-action result
+        env:
+          PLIST_ACTION_OUTPUT: ${{steps.test-run.outputs.target}}
+        run: echo $PLIST_ACTION_OUTPUT
