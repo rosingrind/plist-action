@@ -2,7 +2,7 @@
 
 This action converts between `plist` and `json` using [plist](https://www.npmjs.com/package/plist) package.
 
-[![Tests](https://github.com/rosingrind/plist-action/actions/workflows/test.yml/badge.svg)](https://github.com/rosingrind/plist-action/actions/workflows/test.yml)
+[![Tests](https://github.com/rosingrind/plist-action/actions/workflows/tests.yml/badge.svg)](https://github.com/rosingrind/plist-action/actions/workflows/tests.yml)
 [![Tests](https://github.com/rosingrind/plist-action/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/rosingrind/plist-action/actions/workflows/codeql-analysis.yml)
 
 ## Usage
