@@ -1,6 +1,12 @@
 # Dependency directory
 node_modules
 
+# Yarn Berry
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
+
 # Rest pulled from https://github.com/github/gitignore/blob/master/Node.gitignore
 # Logs
 logs
