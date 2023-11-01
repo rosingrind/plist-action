@@ -1126,13 +1126,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/plist@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "@types/plist@npm:3.0.2"
+"@types/plist@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "@types/plist@npm:3.0.4"
   dependencies:
     "@types/node": "*"
     xmlbuilder: ">=11.0.1"
-  checksum: b8f9e6b21fb41a7e8ea5250717da972cde40b120109d5d2ed79e0a25406a9f6793abcba048d9b8ecc3df4b25735d9e4223b4d8a56dff893665c4a8c8573b77ad
+  checksum: fa5b60c231ff53ce69fda589eb2e982784400d6db9669eafb8a7d2ec990be7233204eef782d156f5d7ea1890ca76a2087d5fef3f0577c89794525d771603f609
   languageName: node
   linkType: hard
 
@@ -1429,6 +1429,13 @@ __metadata:
   bin:
     ncc: dist/ncc/cli.js
   checksum: a522bb44c25a65db89941b08ca5817794b6920052f09a9cbd202cc987b81c13dd48cad9aa3b06793fc47ef70ae87fa0b85caf5b6a73e95de8091818049ed6194
+  languageName: node
+  linkType: hard
+
+"@xmldom/xmldom@npm:^0.8.8":
+  version: 0.8.10
+  resolution: "@xmldom/xmldom@npm:0.8.10"
+  checksum: 4c136aec31fb3b49aaa53b6fcbfe524d02a1dc0d8e17ee35bd3bf35e9ce1344560481cd1efd086ad1a4821541482528672306d5e37cdbd187f33d7fadd3e2cf0
   languageName: node
   linkType: hard
 
@@ -5344,7 +5351,7 @@ __metadata:
   dependencies:
     "@actions/core": ^1.10.1
     "@types/node": ^20.5.7
-    "@types/plist": ^3.0.2
+    "@types/plist": ^3.0.4
     "@typescript-eslint/eslint-plugin": ^6.5.0
     "@typescript-eslint/parser": ^6.7.3
     "@vercel/ncc": ^0.38.1
@@ -5355,7 +5362,7 @@ __metadata:
     eslint-plugin-prettier: ^5.0.1
     jest: ^29.6.2
     js-yaml: ^4.1.0
-    plist: ^3.0.6
+    plist: ^3.1.0
     prettier: ^3.0.3
     ts-jest: ^29.1.1
     ts-node: ^10.9.1
@@ -5363,13 +5370,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"plist@npm:^3.0.6":
-  version: 3.0.6
-  resolution: "plist@npm:3.0.6"
+"plist@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "plist@npm:3.1.0"
   dependencies:
+    "@xmldom/xmldom": ^0.8.8
     base64-js: ^1.5.1
     xmlbuilder: ^15.1.1
-  checksum: e21390fab8a3c388f8f51b76c0aa187242a40537119ce865d8637630e7d7df79b21f841ec6a4668e7c68d409a6f584d696619099a6125d28011561639c0823b8
+  checksum: c8ea013da8646d4c50dff82f9be39488054621cc229957621bb00add42b5d4ce3657cf58d4b10c50f7dea1a81118f825838f838baeb4e6f17fab453ecf91d424
   languageName: node
   linkType: hard
 
