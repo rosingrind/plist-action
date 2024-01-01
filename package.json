@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.1",
-    "@types/plist": "^3.0.4",
+    "@types/plist": "^3.0.5",
     "plist": "^3.1.0"
   },
   "devDependencies": {
