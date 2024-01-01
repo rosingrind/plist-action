@@ -1158,13 +1158,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/plist@npm:^3.0.4":
-  version: 3.0.4
-  resolution: "@types/plist@npm:3.0.4"
+"@types/plist@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "@types/plist@npm:3.0.5"
   dependencies:
     "@types/node": "*"
     xmlbuilder: ">=11.0.1"
-  checksum: fa5b60c231ff53ce69fda589eb2e982784400d6db9669eafb8a7d2ec990be7233204eef782d156f5d7ea1890ca76a2087d5fef3f0577c89794525d771603f609
+  checksum: 71417189c9bc0d0cb4595106cea7c7a8a7274f64d2e9c4dd558efd7993bcfdada58be6917189e3be7c455fe4e5557004658fd13bd12254eafed8c56e0868b59e
   languageName: node
   linkType: hard
 
@@ -5620,7 +5620,7 @@ __metadata:
   dependencies:
     "@actions/core": ^1.10.1
     "@types/node": ^20.10.1
-    "@types/plist": ^3.0.4
+    "@types/plist": ^3.0.5
     "@typescript-eslint/eslint-plugin": ^6.16.0
     "@typescript-eslint/parser": ^6.13.1
     "@vercel/ncc": ^0.38.1
