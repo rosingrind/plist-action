@@ -1262,25 +1262,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^6.16.0":
-  version: 6.16.0
-  resolution: "@typescript-eslint/parser@npm:6.16.0"
-  dependencies:
-    "@typescript-eslint/scope-manager": 6.16.0
-    "@typescript-eslint/types": 6.16.0
-    "@typescript-eslint/typescript-estree": 6.16.0
-    "@typescript-eslint/visitor-keys": 6.16.0
-    debug: ^4.3.4
-  peerDependencies:
-    eslint: ^7.0.0 || ^8.0.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 5048a4fe63a8edf3b23c4355c7399d39c266a5f92d2c271e0ff3122eff5cd81d6535c871912b9cea991d87c91d264420ad0253b7816206f34356c290b7671188
-  languageName: node
-  linkType: hard
-
-"@typescript-eslint/parser@npm:^7.0.1":
+"@typescript-eslint/parser@npm:^7.0.1, @typescript-eslint/parser@npm:^7.4.0":
   version: 7.4.0
   resolution: "@typescript-eslint/parser@npm:7.4.0"
   dependencies:
@@ -5586,7 +5568,7 @@ __metadata:
     "@types/node": ^20.11.14
     "@types/plist": ^3.0.5
     "@typescript-eslint/eslint-plugin": ^6.16.0
-    "@typescript-eslint/parser": ^6.16.0
+    "@typescript-eslint/parser": ^7.4.0
     "@vercel/ncc": ^0.38.1
     eslint: ^8.54.0
     eslint-plugin-github: ^4.10.2
