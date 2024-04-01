@@ -1156,12 +1156,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.14":
-  version: 20.11.14
-  resolution: "@types/node@npm:20.11.14"
+"@types/node@npm:^20.12.2":
+  version: 20.12.2
+  resolution: "@types/node@npm:20.12.2"
   dependencies:
     undici-types: ~5.26.4
-  checksum: 656644db447386dbefb97e76861f1f69e32995196503f6e215261ef2fd92f065c15b60f506c5e930c33a5c3a0d9513e0a93eb319c146b38ec2d5f9bde45b8886
+  checksum: 3242ab04fe69ae32a2da29a7a2fce41fccb370bc1189de43d2dfbb491bd3253d3ee2070cbb5613061148e4862fdaa9cf62722c43128ce5c7d33fe83750956613
   languageName: node
   linkType: hard
 
@@ -5565,7 +5565,7 @@ __metadata:
   resolution: "plist-action@workspace:."
   dependencies:
     "@actions/core": ^1.10.1
-    "@types/node": ^20.11.14
+    "@types/node": ^20.12.2
     "@types/plist": ^3.0.5
     "@typescript-eslint/eslint-plugin": ^6.16.0
     "@typescript-eslint/parser": ^7.4.0
